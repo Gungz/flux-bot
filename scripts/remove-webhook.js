@@ -2,7 +2,7 @@ const twitterWebhooks = require('twitter-webhooks');
 const config = require('config');
 
 if (process.argv.length < 3) {
-    logger.info('usage node scripts/remove-webhook.js 1262086099217809408')
+    console.error('usage node scripts/remove-webhook.js <webhook id>')
     return
 }
 

@@ -86,17 +86,18 @@ This is required because `flux-sdk` seems to work only from javascript in browse
 3. Set environment variable WEBHOOK_SERVER_URL with value ngrok URL you obtained (e.g. https://16c1fc4a.ngrok.io)
 4. Run the application by executing `npm start` - this will start webhook in localhost port 3000
 
-P.S.: When you run `npm start` for the second time, third time, etc., your console may output error like "Error when creating subscription, Error when register", do not worry, this error happens because actually you only need to register your webhook and add your subscription to Twitter once but the current codebase keeps executing the registration and subscription request whenever the application is started.
+P.S.: When you run `npm start` for the second time, third time, etc., your console may output error like "Error when creating subscription, Error when register", do not worry, this error happens because actually you only need to register your webhook and add your subscription to Twitter once but the current codebase keeps executing the registration and subscription request whenever the application is started
 
 ## Demo Video
-
+See the demo [here](https://drive.google.com/file/d/1d5BuZ-YFvxjBZ_vczTKXZ2HVJo4tn_J4/view?usp=sharing)
 
 ## TODO
 1. Request pull / merge of my fix on `FluxProvider.js` to `flux-sdk` team
-2. Add linter to the codebase
-3. Create scripts to add / remove Twitter webhook, add / remove user subscription independently and not put it in the `index.js`
-4. Make the codebase more modular and add unit test
-5. Deployment to public server (e.g. Heroku)
-6. Handle MainNet - need to check if this requires `flux-sdk` change to support MainNet or not
-7. Enhance the bot to do categorical market creation
-8. Etc.
+2. Proper error handling for flux timeout and invalid input in Twitter
+3. Add linter to the codebase
+4. Create scripts to add / remove Twitter webhook, add / remove user subscription independently and not put it in the `index.js`
+5. Make the codebase more modular and add unit test
+6. Deployment to public server (e.g. Heroku)
+7. Handle MainNet - need to check if this requires `flux-sdk` change to support MainNet or not
+8. Enhance the bot to do categorical market creation
+9. Etc.

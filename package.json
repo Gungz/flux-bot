@@ -1,22 +1,29 @@
 {
-  "name": "js-bot",
+  "name": "flux-bot",
   "version": "1.0.0",
-  "description": "a simple bot that's a fan of javascript",
+  "description": "A twitter bot that creates open market using Flux",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Edmund1645/js-bot.git"
+    "url": "https://github.com/Gungz/flux-bot.git"
   },
-  "author": "Edmund Ekott",
+  "author": "Gungz",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Edmund1645/js-bot/issues"
-  },
-  "homepage": "https://github.com/Edmund1645/js-bot#readme",
+  "homepage": "",
   "dependencies": {
-    "twit": "^2.2.11"
+    "atob": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "flux-sdk": "0.0.33",
+    "https": "^1.0.0",
+    "moment": "^2.25.3",
+    "twit": "^2.2.11",
+    "twitter-webhooks": "^0.3.3",
+    "window": "^4.2.7"
   }
 }

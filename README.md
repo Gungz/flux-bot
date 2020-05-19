@@ -25,8 +25,9 @@ A Twitter bot that allows people to create a market by tagging a bot. E.g.: @flu
 12. Find the user ID of your Twitter account (you can use this [site](https://codeofaninja.com/tools/find-twitter-id), enter your Twitter username and you get your ID) - the ID is TWITTER_USER_ID env variable you will need to set in below section
 
 ### Setup Near Account to be used by Flux SDK
-1. Put your Near Account json file to folder `neardev/default`
-2. You can find your Near Account json file by following this [guide](https://docs.near.org/docs/roles/developer/examples/near-api-js/guides#authenticating-with-near-shell)
+1. Create folder `neardev/default`
+2. Put your Near Account json file to folder `neardev/default`
+3. You can find your Near Account json file by following this [guide](https://docs.near.org/docs/roles/developer/examples/near-api-js/guides#authenticating-with-near-shell)
 The json file should contain information like below
 ```
 {

@@ -91,7 +91,9 @@ P.S.: When you run `npm start` for the second time, third time, etc., your conso
 ## Demo Video
 See the demo [here](https://drive.google.com/file/d/1d5BuZ-YFvxjBZ_vczTKXZ2HVJo4tn_J4/view?usp=sharing)
 
-You can run `npm run check-markets` and check that the market with ID mentioned in tiwtter bot reply is indeed there on the Blockchain
+You can run `npm run check-markets` and check that the market with ID mentioned in twitter bot reply is indeed there on the Blockchain
+
+P.S.: Error handling has not been done properly, so when you test it, kindly ensure you always use same format of tweet, e.g. `@BotHackathon "<description inside double-quotes>" <end time in format like 31-12-2020 11:59pm>`
 
 ## TODO
 1. Request pull / merge of my fix on `FluxProvider.js` to `flux-sdk` team

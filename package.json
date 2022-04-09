@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "flux-sdk": "0.0.33",
     "https": "^1.0.0",
-    "moment": "^2.25.3",
+    "moment": "^2.29.2",
     "twit": "^2.2.11",
     "twitter-webhooks": "^0.3.3",
     "window": "^4.2.7"
